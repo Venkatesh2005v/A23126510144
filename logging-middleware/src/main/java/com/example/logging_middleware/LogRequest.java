@@ -1,4 +1,4 @@
-package main.java.com.example.logging_middleware;
+package com.example.logging_middleware;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import lombok.AllArgsConstructor;
