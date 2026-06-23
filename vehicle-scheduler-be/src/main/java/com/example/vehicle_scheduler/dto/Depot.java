@@ -1,0 +1,19 @@
+package main.java.com.example.vehicle_scheduler.dto;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class Depot {
+
+    @JsonProperty("ID")
+    private int id;
+
+    @JsonProperty("MechanicHours")
+    private int mechanicHours;
+
+}
