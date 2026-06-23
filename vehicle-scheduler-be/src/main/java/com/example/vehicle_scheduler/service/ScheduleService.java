@@ -1,6 +1,11 @@
-package main.java.com.example.vehicle_scheduler.service;
+package com.example.vehicle_scheduler.service;
 import org.springframework.stereotype.Service;
 import org.springframework.beans.factory.annotation.Autowired;
+import java.util.List;
+import java.util.ArrayList;
+import com.example.vehicle_scheduler.dto.Depot;
+import com.example.vehicle_scheduler.dto.ScheduleResponse;
+import com.example.vehicle_scheduler.dto.VehicleTask;
 
 @Service
 public class ScheduleService {

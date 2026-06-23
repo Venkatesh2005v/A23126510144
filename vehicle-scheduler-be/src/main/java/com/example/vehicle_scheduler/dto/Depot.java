@@ -1,4 +1,4 @@
-package main.java.com.example.vehicle_scheduler.dto;
+package com.example.vehicle_scheduler.dto;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Data;
