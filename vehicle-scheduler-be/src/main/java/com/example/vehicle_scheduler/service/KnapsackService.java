@@ -2,6 +2,9 @@ package main.java.com.example.vehicle_scheduler.service;
 import org.springframework.stereotype.Service;
 
 import main.java.com.example.vehicle_scheduler.dto.VehicleTask;
+import main.java.com.example.vehicle_scheduler.dto.ScheduleResponse;
+import java.util.List;
+import java.util.ArrayList;
 
 @Service
 public class KnapsackService {
