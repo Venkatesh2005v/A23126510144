@@ -6,8 +6,8 @@ import java.util.List;
 @Data
 @AllArgsConstructor
 public class ScheduleResponse {
-    private List<VehicleTask> selectedVehicles;
+    private List<VehicleTask> selectedTasks;
     private int totalDuration;
     private int totalImpact;
-    
+
 }
